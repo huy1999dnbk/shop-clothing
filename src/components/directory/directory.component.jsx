@@ -3,7 +3,7 @@ import DirectoryItem from "../directory-item/directory-item.component";
 const categories = [
   {
     id: 1,
-    title: "hat",
+    title: "hats",
     imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
     route:'shop/hats'
   },
