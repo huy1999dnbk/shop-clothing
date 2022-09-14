@@ -13,10 +13,6 @@ const Category = () => {
   const { category } = useParams();
   const categoriesMap = useSelector(selectCategoriesMap);
   const isLoading = useSelector(selectCategoriesIsLoading);
-  console.log(
-    "🚀 ~ file: category.component.jsx ~ line 16 ~ Category ~ isLoading",
-    isLoading
-  );
 
   const [products, setProducts] = useState(categoriesMap[category]);
 
